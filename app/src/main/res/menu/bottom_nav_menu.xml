@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/mainFragment"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item android:id="@+id/lensesFragment"
+        android:title="Линзы"
+        android:icon="@drawable/ic_eye"/>
+    <item android:id="@+id/openingFragment"
+        android:title="Ратвор"
+        android:icon="@drawable/ic_opening"/>
+
+
+</menu>
