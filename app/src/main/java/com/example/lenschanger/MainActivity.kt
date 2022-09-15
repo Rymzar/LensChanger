@@ -10,6 +10,7 @@ import com.example.lenschanger.databinding.ActivityMainBinding
 import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
@@ -21,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.fragment_splash)
         CoroutineScope(Dispatchers.Main).launch {
+            delay(5000)
             _binding = ActivityMainBinding.inflate(layoutInflater)
             setContentView(mBinding.root)
             bottom_nav_menu.setupWithNavController(
