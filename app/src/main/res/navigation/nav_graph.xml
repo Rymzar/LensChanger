@@ -9,31 +9,79 @@
         android:id="@+id/mainFragment"
         android:name="com.example.lenschanger.ui.main.MainFragment"
         android:label="fragment_main"
-        tools:layout="@layout/fragment_main" >
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/action_mainFragment_to_openingFragment2"
+            app:destination="@id/openingFragment"
+            app:enterAnim="@android:anim/slide_out_right"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_mainFragment_to_infOpeningFragment2"
+            app:destination="@id/infOpeningFragment"
+            app:enterAnim="@android:anim/slide_out_right"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_mainFragment_to_infLensFragment2"
+            app:destination="@id/infLensFragment"
+            app:enterAnim="@android:anim/slide_out_right"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_mainFragment_to_settingFragment2"
+            app:destination="@id/settingFragment"
+            app:enterAnim="@android:anim/slide_out_right"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"/>
+        <action
+            android:id="@+id/action_mainFragment_to_tuPutOnFragment2"
+            app:destination="@id/tuPutOnFragment"
+            app:enterAnim="@android:anim/slide_out_right"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popEnterAnim="@android:anim/slide_in_left"
+            app:popExitAnim="@android:anim/slide_out_right"/>
         <action
             android:id="@+id/action_mainFragment_to_lensesFragment"
             app:destination="@id/lensesFragment"
             app:enterAnim="@android:anim/slide_out_right"
             app:exitAnim="@android:anim/slide_out_right"
             app:popEnterAnim="@android:anim/slide_in_left"
-            app:popExitAnim="@android:anim/slide_out_right"/>
+            app:popExitAnim="@android:anim/slide_out_right"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/openingFragment"
         android:name="com.example.lenschanger.ui.opening.OpeningFragment"
         android:label="fragment_opening"
-        tools:layout="@layout/fragment_opening" >
-        <action
-            android:id="@+id/action_openingFragment_to_lensesFragment"
-            app:destination="@id/lensesFragment"
-            app:enterAnim="@android:anim/slide_out_right"
-            app:exitAnim="@android:anim/slide_out_right"
-            app:popEnterAnim="@android:anim/slide_in_left"
-            app:popExitAnim="@android:anim/slide_out_right" />
-    </fragment>
+        tools:layout="@layout/fragment_opening" />
     <fragment
         android:id="@+id/lensesFragment"
         android:name="com.example.lenschanger.ui.lenses.LensesFragment"
         android:label="fragment_lenses"
         tools:layout="@layout/fragment_lenses" />
+    <fragment
+        android:id="@+id/infLensFragment"
+        android:name="com.example.lenschanger.ui.fragment_main.InfLensFragment"
+        android:label="fragment_inf_lens"
+        tools:layout="@layout/fragment_inf_lens" />
+    <fragment
+        android:id="@+id/infOpeningFragment"
+        android:name="com.example.lenschanger.ui.fragment_main.InfOpeningFragment"
+        android:label="fragment_inf_opening"
+        tools:layout="@layout/fragment_inf_opening" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.example.lenschanger.ui.fragment_main.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+    <fragment
+        android:id="@+id/tuPutOnFragment"
+        android:name="com.example.lenschanger.ui.fragment_main.TuPutOnFragment"
+        android:label="fragment_tu_put_on"
+        tools:layout="@layout/fragment_tu_put_on" />
 </navigation>
