@@ -79,13 +79,23 @@
                     android:padding="8dp"
                     android:src="@drawable/lenses_img"/>
 
-                <TextView
+                <!--<TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="@string/lens"
                     android:textSize="20sp"
-                    android:fontFamily="@font/arial_rounded_mt_bold"/>
+                    android:fontFamily="@font/arial_rounded_mt_bold"/>-->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/bottom_lens"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/news_backgraunding"
+                    android:fontFamily="@font/arial_rounded_mt_bold"
+                    android:gravity="center"
+                    android:text="@string/lens"
+                    android:textSize="13sp"
+                    android:textAllCaps="false"/>
 
 
             </LinearLayout>
@@ -112,13 +122,23 @@
                     android:padding="8dp"
                     android:src="@drawable/contact_img"/>
 
-                <TextView
+                <!--<TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/lens"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/arial_rounded_mt_bold"/>-->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/bottom_tu_put_on"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="@string/lens_to_put_on"
-                    android:textSize="20sp"
-                    android:fontFamily="@font/arial_rounded_mt_bold"/>
+                    android:textSize="13sp"
+                    android:fontFamily="@font/arial_rounded_mt_bold"
+                    android:textAllCaps="false"
+                    android:background="@drawable/news_backgraunding"/>
 
 
             </LinearLayout>
@@ -145,13 +165,23 @@
                     android:padding="8dp"
                     android:src="@drawable/opening_img"/>
 
-                <TextView
+                <!--<TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/lens"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/arial_rounded_mt_bold"/>-->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/bottom_openimg"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="@string/opening_inf"
-                    android:textSize="20sp"
-                    android:fontFamily="@font/arial_rounded_mt_bold"/>
+                    android:textSize="13sp"
+                    android:fontFamily="@font/arial_rounded_mt_bold"
+                    android:textAllCaps="false"
+                    android:background="@drawable/news_backgraunding"/>
 
 
             </LinearLayout>
@@ -172,19 +202,29 @@
 
                 <ImageView
                     android:layout_width="100dp"
-                    android:layout_height="100dp"
+                    android:layout_height="103dp"
                     android:layout_margin="8dp"
                     android:contentDescription="@string/app_name"
                     android:padding="8dp"
                     android:src="@drawable/setting_img"/>
 
-                <TextView
+                <!--<TextView
                     android:layout_width="match_parent"
-                    android:layout_height="48dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/lens"
+                    android:textSize="20sp"
+                    android:fontFamily="@font/arial_rounded_mt_bold"/>-->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/bottom_setting"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/news_backgraunding"
                     android:fontFamily="@font/arial_rounded_mt_bold"
                     android:gravity="center"
                     android:text="@string/setting"
-                    android:textSize="20sp" />
+                    android:textSize="13sp"
+                    android:textAllCaps="false" />
                 
             </LinearLayout>
             

@@ -7,7 +7,9 @@
     <string name="news">Здесь может быть ваша реклама, по всем вопросам обращаться на почту rymzar@gmail.com</string>
     <string name="user">User</string>
     <string name="hello">Hello</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inf_lenses">Инфорация о линзах</string>
+    <string name="setting_fr">Настройки</string>
+    <string name="int_to_put_on_lens">Как носить линзы</string>
+    <string name="inf_opening_lens">Информация о растворе</string>
 
 </resources>
